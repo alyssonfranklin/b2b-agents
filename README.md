@@ -166,7 +166,7 @@ Some agents trigger automatically in specific B2B contexts:
 
 ## 🏢 Custom B2B Agents
 
-Three specialized agents were created specifically for the Kantor B2B onboarding platform:
+Specialized agents were created specifically for B2B scenarios:
 
 ### **b2b-onboarding-optimizer** (`product/`)
 Specializes in multi-step company setup flows, user activation, and reducing time-to-value for enterprise customers. Focuses on B2B SaaS onboarding best practices, user journey optimization, and conversion funnel analysis.
