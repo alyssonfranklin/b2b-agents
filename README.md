@@ -52,6 +52,7 @@ b2b-saas-agents/
 │   ├── visual-storyteller.md
 │   └── whimsy-injector.md
 ├── engineering/
+│   ├── accessibility-expert.md
 │   ├── ai-engineer.md
 │   ├── backend-architect.md
 │   ├── devops-automator.md
@@ -98,6 +99,7 @@ b2b-saas-agents/
 ## Complete Agent List
 
 ### Engineering Department (`engineering/`)
+- **accessibility-expert** - WCAG 2.1 AAA compliance automation with real-time monitoring, with coverage for US Federal and State Laws, including Brazilian #a11y rules. 
 - **ai-engineer** - Integrate AI/ML features for B2B enterprise solutions
 - **backend-architect** - Design scalable B2B APIs and multi-tenant systems
 - **devops-automator** - Deploy enterprise-grade B2B applications continuously
@@ -164,7 +166,7 @@ Some agents trigger automatically in specific B2B contexts:
 
 ## 🏢 Custom B2B Agents
 
-Three specialized agents were created specifically for the Kantor B2B onboarding platform:
+Specialized agents were created specifically for B2B scenarios:
 
 ### **b2b-onboarding-optimizer** (`product/`)
 Specializes in multi-step company setup flows, user activation, and reducing time-to-value for enterprise customers. Focuses on B2B SaaS onboarding best practices, user journey optimization, and conversion funnel analysis.
