@@ -56,7 +56,8 @@ b2b-saas-agents/
 │   ├── ai-engineer.md
 │   ├── backend-architect.md
 │   ├── devops-automator.md
-│   ├── enterprise-security-reviewer.md 
+│   ├── enterprise-security-reviewer.md
+│   ├── enterprise-integration-architect.md 
 │   ├── frontend-developer.md
 │   ├── mobile-app-builder.md
 │   ├── rapid-prototyper.md
@@ -104,6 +105,7 @@ b2b-saas-agents/
 - **backend-architect** - Design scalable B2B APIs and multi-tenant systems
 - **devops-automator** - Deploy enterprise-grade B2B applications continuously
 - **enterprise-security-reviewer** - Review B2B security, SOC 2, GDPR compliance
+- **enterprise-integration-architect** - Focuses on enterprise system integrations for B2B applications, also addressing enterprise requirements for seamless data flow
 - **frontend-developer** - Build enterprise-grade B2B user interfaces
 - **mobile-app-builder** - Create B2B mobile experiences and admin apps
 - **rapid-prototyper** - Build B2B MVPs and enterprise features quickly
