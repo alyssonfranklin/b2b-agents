@@ -110,10 +110,15 @@ b2b-saas-agents/
 - **mobile-app-builder** - Create B2B mobile experiences and admin apps
 - **rapid-prototyper** - Build B2B MVPs and enterprise features quickly
 - **test-writer-fixer** - Write enterprise-quality tests for B2B systems
+- **api-integration-specialist** - Handle enterprise API integrations and third-party connections
+- **enterprise-security-reviewer**
+Expert in SOC 2, GDPR, multi-tenant security, authentication systems, authorization models, API security, and data encryption for B2B applications. Ensures enterprise-grade security compliance.
+- **api-integration-specialist**
+Handles enterprise API integrations, third-party connections, webhook systems, Stripe subscriptions, payment processing, and external service integrations for B2B platforms.
+
 
 ### Product Department (`product/`)
-- **api-integration-specialist** - Handle enterprise API integrations and third-party connections
-- **b2b-onboarding-optimizer** - Optimize enterprise customer onboarding flows
+- **b2b-onboarding-optimizer** - Optimize enterprise customer onboarding flows, specialized in multi-step company setup flows, user activation, and reducing time-to-value for enterprise customers. Focuses on B2B SaaS onboarding best practices, user journey optimization, and conversion funnel analysis.
 - **feedback-synthesizer** - Transform B2B customer complaints into enterprise features
 - **sprint-prioritizer** - Ship maximum B2B value in 6-day sprints
 - **trend-researcher** - Identify B2B market opportunities and enterprise trends
@@ -166,18 +171,6 @@ Some agents trigger automatically in specific B2B contexts:
 - **experiment-tracker** - When B2B feature flags or A/B tests are added
 - **enterprise-security-reviewer** - When authentication, authorization, or compliance code changes
 
-## 🏢 Custom B2B Agents
-
-Specialized agents were created specifically for B2B scenarios:
-
-### **b2b-onboarding-optimizer** (`product/`)
-Specializes in multi-step company setup flows, user activation, and reducing time-to-value for enterprise customers. Focuses on B2B SaaS onboarding best practices, user journey optimization, and conversion funnel analysis.
-
-### **enterprise-security-reviewer** (`engineering/`)
-Expert in SOC 2, GDPR, multi-tenant security, authentication systems, authorization models, API security, and data encryption for B2B applications. Ensures enterprise-grade security compliance.
-
-### **api-integration-specialist** (`product/`)
-Handles enterprise API integrations, third-party connections, webhook systems, Stripe subscriptions, payment processing, and external service integrations for B2B platforms.
 
 ## 💡 Best Practices for B2B Development
 
