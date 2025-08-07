@@ -54,27 +54,36 @@ b2b-saas-agents/
 ├── engineering/
 │   ├── accessibility-expert.md
 │   ├── ai-engineer.md
+│   ├── ai-ethics-governance-specialist.md
+│   ├── api-integration-specialist.md
 │   ├── backend-architect.md
 │   ├── database-performance-optimizer.md
+│   ├── data-privacy-engineer.md
 │   ├── devops-automator.md
+│   ├── enterprise-integration-architect.md
 │   ├── enterprise-security-reviewer.md
-│   ├── enterprise-integration-architect.md 
 │   ├── frontend-developer.md
 │   ├── mobile-app-builder.md
+│   ├── monitoring-observability-specialist.md
 │   ├── rapid-prototyper.md
+│   ├── technical-sales-engineer.md
 │   └── test-writer-fixer.md
 ├── marketing/
 │   ├── app-store-optimizer.md
 │   ├── b2b-linkedin-content-curator.md 
 │   ├── b2b-video-strategist.md  
 │   ├── content-creator.md
+│   ├── enterprise-content-strategist.md
 │   ├── growth-hacker.md
+│   ├── partnership-channel-manager.md
 │   ├── reddit-community-builder.md
 │   └── twitter-engager.md
 ├── product/
-│   ├── api-integration-specialist.md  
-│   ├── b2b-onboarding-optimizer.md 
+│   ├── b2b-onboarding-optimizer.md
+│   ├── enterprise-onboarding-strategist.md
 │   ├── feedback-synthesizer.md
+│   ├── pricing-packaging-strategist.md
+│   ├── product-sales-specialist.md
 │   ├── sprint-prioritizer.md
 │   └── trend-researcher.md
 ├── project-management/
@@ -83,9 +92,11 @@ b2b-saas-agents/
 │   └── studio-producer.md
 ├── studio-operations/
 │   ├── analytics-reporter.md
+│   ├── compliance-automation-specialist.md
+│   ├── customer-success-manager.md
 │   ├── finance-tracker.md
 │   ├── infrastructure-maintainer.md
-│   ├── legal-compliance-checker.md
+│   ├── legal-advisor.md
 │   └── support-responder.md
 ├── testing/
 │   ├── api-tester.md
@@ -101,30 +112,32 @@ b2b-saas-agents/
 ## Complete Agent List
 
 ### Engineering Department (`engineering/`)
-- **accessibility-expert** - WCAG 2.1 AAA compliance automation with real-time monitoring, with coverage for US Federal and State Laws, including Brazilian #a11y rules. 
+- **accessibility-expert** - WCAG 2.1 AA/AAA compliance, Section 508, Brazilian Marco Civil da Internet accessibility
 - **ai-engineer** - Integrate AI/ML features for B2B enterprise solutions
+- **ai-ethics-governance-specialist** - AI bias detection, algorithmic transparency, governance frameworks
+- **api-integration-specialist** - Internal API architecture, GraphQL implementation, developer experience optimization
 - **backend-architect** - Design scalable B2B APIs and multi-tenant systems
+- **database-performance-optimizer** - Multi-tenant database optimization, query performance, enterprise scaling
+- **data-privacy-engineer** - GDPR, CCPA, LGPD compliance, privacy-by-design engineering
 - **devops-automator** - Deploy enterprise-grade B2B applications continuously
-- **database-performance-optimizer.md** - Focuses on multi-tenant database optimization, query tuning, and enterprise performance for scaling strategies
-- Addresses enterprise requirements for reliable data operations
-- **enterprise-security-reviewer** - Review B2B security, SOC 2, GDPR compliance
-- **enterprise-integration-architect** - Focuses on enterprise system integrations for B2B applications, also addressing enterprise requirements for seamless data flow
+- **enterprise-integration-architect** - External enterprise system integrations, Salesforce, SAP, legacy connectivity
+- **enterprise-security-reviewer** - B2B security, SOC 2, GDPR compliance, security architecture
 - **frontend-developer** - Build enterprise-grade B2B user interfaces
 - **mobile-app-builder** - Create B2B mobile experiences and admin apps
+- **monitoring-observability-specialist** - Enterprise SLA monitoring, APM, distributed system observability
 - **rapid-prototyper** - Build B2B MVPs and enterprise features quickly
+- **technical-sales-engineer** - Technical demos, POC development, RFP responses, solution architecture
 - **test-writer-fixer** - Write enterprise-quality tests for B2B systems
-- **api-integration-specialist** - Handle enterprise API integrations and third-party connections
-- **enterprise-security-reviewer**
-Expert in SOC 2, GDPR, multi-tenant security, authentication systems, authorization models, API security, and data encryption for B2B applications. Ensures enterprise-grade security compliance.
-- **api-integration-specialist**
-Handles enterprise API integrations, third-party connections, webhook systems, Stripe subscriptions, payment processing, and external service integrations for B2B platforms.
 
 
 ### Product Department (`product/`)
-- **b2b-onboarding-optimizer** - Optimize enterprise customer onboarding flows, specialized in multi-step company setup flows, user activation, and reducing time-to-value for enterprise customers. Focuses on B2B SaaS onboarding best practices, user journey optimization, and conversion funnel analysis.
+- **b2b-onboarding-optimizer** - Multi-step company setup flows, user activation, reducing time-to-value for enterprise customers
+- **enterprise-onboarding-strategist** - Complex stakeholder management, change management, large-scale enterprise rollouts
 - **feedback-synthesizer** - Transform B2B customer complaints into enterprise features
+- **pricing-packaging-strategist** - Value-based pricing, usage-based billing, enterprise contract optimization
+- **product-sales-specialist** - Product design, user research, PMO frameworks, and creative RFP responses for enterprise sales
 - **sprint-prioritizer** - Ship maximum B2B value in 6-day sprints
-- **trend-researcher** - Identify B2B market opportunities and enterprise trends
+- **trend-researcher** - Identify B2B market opportunities, enterprise trends, and RFP opportunity intelligence
 
 ### Marketing Department (`marketing/`)
 - **app-store-optimizer** - Optimize B2B SaaS app store presence
@@ -151,7 +164,8 @@ Handles enterprise API integrations, third-party connections, webhook systems, S
 - **analytics-reporter** - Turn B2B usage data into actionable enterprise insights
 - **finance-tracker** - Keep the B2B SaaS business profitable and track MRR
 - **infrastructure-maintainer** - Scale B2B infrastructure without breaking the budget
-- **legal-compliance-checker** - Stay compliant with enterprise legal requirements
+- **compliance-automation-specialist** - Automated SOC 2, GDPR, ISO 27001 compliance monitoring and audit preparation
+- **legal-advisor** - Legal advisory, RFP response creation, enterprise contract support and procurement compliance
 - **support-responder** - Turn frustrated B2B customers into advocates
 
 ### Testing & Benchmarking (`testing/`)
