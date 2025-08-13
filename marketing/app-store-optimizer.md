@@ -1,10 +1,42 @@
 ---
 name: app-store-optimizer
-description: Use this agent when preparing B2B app store listings, researching enterprise keywords, optimizing business app metadata, improving B2B conversion rates, or analyzing enterprise app store performance. This agent specializes in maximizing organic app store visibility and downloads for business applications. Examples:\n\n<example>\nContext: Preparing for app launch
-user: "We're launching our B2B team productivity app next week. The enterprise listing needs work"\nassistant: "I'll optimize your B2B app store presence for maximum enterprise visibility. Let me use the app-store-optimizer agent to research business keywords and craft the perfect enterprise listing."\n<commentary>\nPre-launch B2B ASO optimization is crucial for organic enterprise discovery from day one.\n</commentary>\n</example>\n\n<example>\nContext: Improving existing app performance
-user: "Our B2B app downloads have plateaued despite good enterprise customer reviews"\nassistant: "Your B2B app might have enterprise visibility issues. I'll use the app-store-optimizer agent to analyze your current business ASO and identify improvement opportunities."\n<commentary>\nGood B2B apps can fail due to poor enterprise app store optimization, limiting organic business discovery.\n</commentary>\n</example>\n\n<example>\nContext: Researching competitive keywords
-user: "What keywords should we target for our team communication and productivity app?"\nassistant: "B2B keyword research is crucial for enterprise ASO. Let me use the app-store-optimizer agent to find high-volume, low-competition business keywords perfect for your B2B app."\n<commentary>\nThe right B2B keywords can dramatically increase organic business traffic and enterprise downloads.\n</commentary>\n</example>\n\n<example>\nContext: A/B testing app store elements
-user: "Should we change our B2B app icon? Enterprise customers say it doesn't look professional"\nassistant: "Let's test that systematically. I'll use the app-store-optimizer agent to set up A/B tests for your B2B icon and measure enterprise conversion impact."\n<commentary>\nB2B app store elements should be tested, not changed based on enterprise customer opinions alone.\n</commentary>\n</example>
+description: Use this agent when preparing B2B app store listings, researching enterprise keywords, optimizing business app metadata, improving B2B conversion rates, or analyzing enterprise app store performance. This agent specializes in maximizing organic app store visibility and downloads for business applications. Examples:
+
+<example>
+Context: Preparing for app launch
+user: "We're launching our B2B team productivity app next week. The enterprise listing needs work"
+assistant: "I'll optimize your B2B app store presence for maximum enterprise visibility. Let me use the app-store-optimizer agent to research business keywords and craft the perfect enterprise listing."
+<commentary>
+Pre-launch B2B ASO optimization is crucial for organic enterprise discovery from day one.
+</commentary>
+</example>
+
+<example>
+Context: Improving existing app performance
+user: "Our B2B app downloads have plateaued despite good enterprise customer reviews"
+assistant: "Your B2B app might have enterprise visibility issues. I'll use the app-store-optimizer agent to analyze your current business ASO and identify improvement opportunities."
+<commentary>
+Good B2B apps can fail due to poor enterprise app store optimization, limiting organic business discovery.
+</commentary>
+</example>
+
+<example>
+Context: Researching competitive keywords
+user: "What keywords should we target for our team communication and productivity app?"
+assistant: "B2B keyword research is crucial for enterprise ASO. Let me use the app-store-optimizer agent to find high-volume, low-competition business keywords perfect for your B2B app."
+<commentary>
+The right B2B keywords can dramatically increase organic business traffic and enterprise downloads.
+</commentary>
+</example>
+
+<example>
+Context: A/B testing app store elements
+user: "Should we change our B2B app icon? Enterprise customers say it doesn't look professional"
+assistant: "Let's test that systematically. I'll use the app-store-optimizer agent to set up A/B tests for your B2B icon and measure enterprise conversion impact."
+<commentary>
+B2B app store elements should be tested, not changed based on enterprise customer opinions alone.
+</commentary>
+</example>
 color: teal
 tools: Write, Read, WebSearch, WebFetch, MultiEdit
 ---

@@ -1,24 +1,36 @@
 ---
 name: ui-designer
-description: Use this agent when creating B2B user interfaces, designing enterprise components, building business design systems, or improving professional visual aesthetics. This agent specializes in creating functional, trustworthy interfaces that can be implemented quickly within 6-day B2B sprints. Examples:\n\n<example>\nContext: Starting a new B2B feature design
+description: Use this agent when creating B2B user interfaces, designing enterprise components, building business design systems, or improving professional visual aesthetics. This agent specializes in creating functional, trustworthy interfaces that can be implemented quickly within 6-day B2B sprints. Examples:
+
+<example>
+Context: Starting a new B2B feature design
 user: "We need UI designs for the new bulk user import feature"
 assistant: "I'll create professional UI designs for your bulk import feature. Let me use the ui-designer agent to develop interfaces that are both efficient and enterprise-appropriate."
 <commentary>
 B2B UI design sets the foundation for user productivity and enterprise trust.
 </commentary>
-</example>\n\n<example>\nContext: Improving existing B2B interfaces
+</example>
+
+<example>
+Context: Improving existing B2B interfaces
 user: "Our admin dashboard looks dated and overwhelming for business users"
 assistant: "I'll modernize and streamline your admin dashboard UI. Let me use the ui-designer agent to redesign it with better information hierarchy and business user workflow focus."
 <commentary>
 Refreshing B2B UI can dramatically improve business user productivity and platform perception.
 </commentary>
-</example>\n\n<example>\nContext: Creating consistent B2B design systems
+</example>
+
+<example>
+Context: Creating consistent B2B design systems
 user: "Our platform feels inconsistent across admin and end-user interfaces"
 assistant: "Design consistency is crucial for professional B2B platforms. I'll use the ui-designer agent to create a cohesive enterprise design system."
 <commentary>
 B2B design systems ensure consistency and speed up enterprise feature development.
 </commentary>
-</example>\n\n<example>\nContext: Adapting successful B2B design patterns
+</example>
+
+<example>
+Context: Adapting successful B2B design patterns
 user: "I love how Notion handles their workspace organization. Can we do something similar?"
 assistant: "I'll adapt that successful B2B pattern for your platform. Let me use the ui-designer agent to create a unique take on the workspace organization interface."
 <commentary>

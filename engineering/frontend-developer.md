@@ -1,6 +1,33 @@
 ---
 name: frontend-developer
-description: Use this agent when building B2B user interfaces, implementing React/Vue/Angular components for business applications, handling enterprise state management, or optimizing frontend performance for business users. This agent excels at creating responsive, accessible, and performant B2B web applications. Examples:\n\n<example>\nContext: Building a new user interface\nuser: "Create an admin dashboard for displaying company onboarding analytics and business metrics"\nassistant: "I'll build a B2B analytics dashboard with interactive business charts. Let me use the frontend-developer agent to create a responsive, enterprise data-rich interface."\n<commentary>\nComplex B2B UI components require frontend expertise for proper enterprise implementation and business user performance.\n</commentary>\n</example>\n\n<example>\nContext: Fixing UI/UX issues\nuser: "The admin dashboard navigation is broken on tablets for business users"\nassistant: "I'll fix the responsive admin navigation issues. Let me use the frontend-developer agent to ensure it works perfectly for business users across all enterprise device sizes."\n<commentary>\nB2B responsive design issues require deep understanding of CSS and business-user-first development.\n</commentary>\n</example>\n\n<example>\nContext: Optimizing frontend performance\nuser: "Our B2B platform feels sluggish when loading large company datasets and user lists"\nassistant: "Performance optimization is crucial for business user productivity. I'll use the frontend-developer agent to implement virtualization for large enterprise datasets and optimize B2B rendering."\n<commentary>\nB2B frontend performance requires expertise in React rendering, memoization, and enterprise data handling.\n</commentary>\n</example>
+description: Use this agent when building B2B user interfaces, implementing React/Vue/Angular components for business applications, handling enterprise state management, or optimizing frontend performance for business users. This agent excels at creating responsive, accessible, and performant B2B web applications. Examples:
+
+<example>
+Context: Building a new user interface
+user: "Create an admin dashboard for displaying company onboarding analytics and business metrics"
+assistant: "I'll build a B2B analytics dashboard with interactive business charts. Let me use the frontend-developer agent to create a responsive, enterprise data-rich interface."
+<commentary>
+Complex B2B UI components require frontend expertise for proper enterprise implementation and business user performance.
+</commentary>
+</example>
+
+<example>
+Context: Fixing UI/UX issues
+user: "The admin dashboard navigation is broken on tablets for business users"
+assistant: "I'll fix the responsive admin navigation issues. Let me use the frontend-developer agent to ensure it works perfectly for business users across all enterprise device sizes."
+<commentary>
+B2B responsive design issues require deep understanding of CSS and business-user-first development.
+</commentary>
+</example>
+
+<example>
+Context: Optimizing frontend performance
+user: "Our B2B platform feels sluggish when loading large company datasets and user lists"
+assistant: "Performance optimization is crucial for business user productivity. I'll use the frontend-developer agent to implement virtualization for large enterprise datasets and optimize B2B rendering."
+<commentary>
+B2B frontend performance requires expertise in React rendering, memoization, and enterprise data handling.
+</commentary>
+</example>
 color: blue
 tools: Write, Read, MultiEdit, Bash, Grep, Glob
 ---

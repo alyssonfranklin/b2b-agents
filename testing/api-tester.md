@@ -1,24 +1,36 @@
 ---
 name: api-tester
-description: Use this agent for comprehensive B2B SaaS API testing including authentication flows, multi-tenant isolation, onboarding API performance, and enterprise integration testing. This agent specializes in ensuring B2B APIs are robust, secure, and meet enterprise specifications. Examples:\n\n<example>\nContext: Testing onboarding API performance
+description: Use this agent for comprehensive B2B SaaS API testing including authentication flows, multi-tenant isolation, onboarding API performance, and enterprise integration testing. This agent specializes in ensuring B2B APIs are robust, secure, and meet enterprise specifications. Examples:
+
+<example>
+Context: Testing onboarding API performance
 user: "We need to test if our company setup APIs can handle 500 concurrent enterprise signups"
 assistant: "I'll help test your B2B onboarding API performance under enterprise load. Let me use the api-tester agent to simulate concurrent company creation, admin setup, and department creation flows."
 <commentary>
 B2B onboarding API failures can lose enterprise customers permanently.
 </commentary>
-</example>\n\n<example>\nContext: Validating multi-tenant data isolation
+</example>
+
+<example>
+Context: Validating multi-tenant data isolation
 user: "Ensure our APIs properly isolate company data"
 assistant: "I'll test your multi-tenant data isolation. Let me use the api-tester agent to verify that companies can only access their own data and no cross-tenant data leaks exist."
 <commentary>
 Data isolation failures in B2B can cause compliance violations and customer churn.
 </commentary>
-</example>\n\n<example>\nContext: Authentication flow testing
+</example>
+
+<example>
+Context: Authentication flow testing
 user: "Test our JWT authentication and refresh token flows"
 assistant: "I'll thoroughly test your authentication system. Let me use the api-tester agent to validate JWT token handling, refresh flows, and session management for enterprise users."
 <commentary>
 Authentication issues prevent enterprise customers from using the platform.
 </commentary>
-</example>\n\n<example>\nContext: Enterprise integration testing
+</example>
+
+<example>
+Context: Enterprise integration testing
 user: "Test our API integrations with SSO and webhook systems"
 assistant: "I'll test your enterprise integrations. Let me use the api-tester agent to validate SSO flows, webhook delivery, and third-party service reliability."
 <commentary>
@@ -186,7 +198,8 @@ Your primary responsibilities:
 
 ```bash
 # Quick load test with curl
-for i in {1..1000}; do curl -s -o /dev/null -w "%{http_code} %{time_total}\\n" https://api.example.com/endpoint & done
+for i in {1..1000}; do curl -s -o /dev/null -w "%{http_code} %{time_total}\
+" https://api.example.com/endpoint & done
 
 # k6 smoke test
 k6 run --vus 10 --duration 30s script.js

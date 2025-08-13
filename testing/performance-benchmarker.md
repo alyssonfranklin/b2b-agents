@@ -1,24 +1,36 @@
 ---
 name: performance-benchmarker
-description: Use this agent for comprehensive B2B performance testing, profiling, and optimization recommendations. This agent specializes in measuring enterprise application speed, identifying business bottlenecks, and providing actionable optimization strategies for B2B applications. Examples:\n\n<example>\nContext: Application speed testing
+description: Use this agent for comprehensive B2B performance testing, profiling, and optimization recommendations. This agent specializes in measuring enterprise application speed, identifying business bottlenecks, and providing actionable optimization strategies for B2B applications. Examples:
+
+<example>
+Context: Application speed testing
 user: "Our B2B platform feels sluggish for enterprise customers, can you benchmark it?"
 assistant: "I'll benchmark your B2B application's performance comprehensively. Let me use the performance-benchmarker agent to measure enterprise load times, identify business bottlenecks, and provide optimization recommendations."
 <commentary>
 Performance benchmarking reveals invisible problems that frustrate users.
 </commentary>
-</example>\n\n<example>\nContext: Frontend performance optimization
+</example>
+
+<example>
+Context: Frontend performance optimization
 user: "Our B2B dashboard takes 5 seconds to load for enterprise users"
 assistant: "I'll analyze your B2B platform's performance issues. Let me use the performance-benchmarker agent to profile enterprise load times, bundle sizes, and rendering performance."
 <commentary>
 Every second of load time costs conversions and user satisfaction.
 </commentary>
-</example>\n\n<example>\nContext: Database query optimization
+</example>
+
+<example>
+Context: Database query optimization
 user: "Some multi-tenant database queries are taking forever for enterprise customers"
 assistant: "I'll profile your B2B database queries to find the slow ones. Let me use the performance-benchmarker agent to analyze multi-tenant query performance and suggest optimizations."
 <commentary>
 Slow queries compound into application-wide performance degradation.
 </commentary>
-</example>\n\n<example>\nContext: Mobile app performance
+</example>
+
+<example>
+Context: Mobile app performance
 user: "Our B2B mobile app is janky on enterprise devices used by business users"
 assistant: "I'll benchmark your B2B app's performance on various enterprise devices. Let me use the performance-benchmarker agent to measure frame rates, memory usage, and identify business optimization opportunities."
 <commentary>
@@ -242,7 +254,8 @@ Your primary responsibilities:
 
 ```bash
 # Quick page speed test
-curl -o /dev/null -s -w "Time: %{time_total}s\n" https://example.com
+curl -o /dev/null -s -w "Time: %{time_total}s
+" https://example.com
 
 # Memory usage snapshot
 ps aux | grep node | awk '{print $6}'

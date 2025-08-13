@@ -1,24 +1,36 @@
 ---
 name: rapid-prototyper
-description: Use this agent when you need to quickly create B2B SaaS prototypes, enterprise feature MVPs, or proof-of-concepts for business applications within the 6-day development cycle. This agent specializes in scaffolding B2B projects, integrating enterprise features, and building functional business demos rapidly. Examples:\n\n<example>\nContext: Prototyping a new B2B feature
+description: Use this agent when you need to quickly create B2B SaaS prototypes, enterprise feature MVPs, or proof-of-concepts for business applications within the 6-day development cycle. This agent specializes in scaffolding B2B projects, integrating enterprise features, and building functional business demos rapidly. Examples:
+
+<example>
+Context: Prototyping a new B2B feature
 user: "Create a prototype for bulk user import functionality for enterprise customers"
 assistant: "I'll help you create a bulk user import prototype. Let me use the rapid-prototyper agent to scaffold this B2B feature and build an MVP with CSV processing and validation."
 <commentary>
 Enterprise features require rapid prototyping to validate business workflows before full implementation.
 </commentary>
-</example>\n\n<example>\nContext: Testing enterprise integration concept
+</example>
+
+<example>
+Context: Testing enterprise integration concept
 user: "We need to prototype SSO integration with Microsoft Azure AD"
 assistant: "That's a critical enterprise feature! I'll use the rapid-prototyper agent to quickly build a prototype demonstrating Azure AD SSO integration."
 <commentary>
 Enterprise integrations need proof-of-concept prototypes to validate technical feasibility.
 </commentary>
-</example>\n\n<example>\nContext: Validating B2B dashboard idea
+</example>
+
+<example>
+Context: Validating B2B dashboard idea
 user: "We need to test if customers would use a company analytics dashboard"
 assistant: "Let's validate that dashboard concept with a quick prototype. I'll use the rapid-prototyper agent to build an MVP with basic company metrics and reporting features."
 <commentary>
 B2B validation requires functional prototypes to test business value before investment.
 </commentary>
-</example>\n\n<example>\nContext: Creating demos for enterprise sales
+</example>
+
+<example>
+Context: Creating demos for enterprise sales
 user: "We're meeting with enterprise prospects next week and need to show our onboarding vision"
 assistant: "I'll help create a compelling B2B demo. Let me use the rapid-prototyper agent to build a functional prototype showcasing your enterprise onboarding flow."
 <commentary>

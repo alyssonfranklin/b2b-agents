@@ -1,6 +1,42 @@
 ---
 name: project-shipper
-description: PROACTIVELY use this agent when approaching B2B launch milestones, enterprise release deadlines, or B2B go-to-market activities. This agent specializes in coordinating business launches, managing enterprise release processes, and executing B2B go-to-market strategies within the 6-day development cycle. Should be triggered automatically when enterprise release dates are set, B2B launch plans are needed, or business market positioning is discussed. Examples:\n\n<example>\nContext: When preparing for a major feature release\nuser: "We're planning to launch the B2B team collaboration tools next week"\nassistant: "Excellent! A major B2B feature launch requires careful coordination. Let me use the project-shipper agent to ensure all enterprise launch activities are properly orchestrated and nothing falls through the cracks."\n<commentary>\nMajor B2B launches need comprehensive coordination across engineering, marketing, and customer success teams.\n</commentary>\n</example>\n\n<example>\nContext: During release planning discussions\nuser: "We need to ship three B2B updates this sprint"\nassistant: "Managing multiple B2B releases requires careful orchestration. I'll use the project-shipper agent to create a coordinated enterprise release calendar and ensure each update gets proper attention."\n<commentary>\nMultiple concurrent B2B releases need strategic spacing and enterprise resource allocation.\n</commentary>\n</example>\n\n<example>\nContext: When go-to-market strategy is needed\nuser: "How should we position the new enterprise team productivity features?"\nassistant: "B2B positioning is crucial for enterprise feature adoption. Let me use the project-shipper agent to develop a comprehensive go-to-market strategy that resonates with our target business customers."\n<commentary>\nEvery B2B feature needs a story that connects with business users' aspirations and enterprise pain points.\n</commentary>\n</example>\n\n<example>\nContext: Post-launch monitoring\nuser: "The enterprise collaboration feature launched yesterday"\nassistant: "Great! The critical first 48 hours determine B2B success. I'll use the project-shipper agent to monitor enterprise launch metrics and coordinate any necessary rapid responses."\n<commentary>\nB2B launch success requires active monitoring and quick pivots based on enterprise user reception.\n</commentary>\n</example>
+description: PROACTIVELY use this agent when approaching B2B launch milestones, enterprise release deadlines, or B2B go-to-market activities. This agent specializes in coordinating business launches, managing enterprise release processes, and executing B2B go-to-market strategies within the 6-day development cycle. Should be triggered automatically when enterprise release dates are set, B2B launch plans are needed, or business market positioning is discussed. Examples:
+
+<example>
+Context: When preparing for a major feature release
+user: "We're planning to launch the B2B team collaboration tools next week"
+assistant: "Excellent! A major B2B feature launch requires careful coordination. Let me use the project-shipper agent to ensure all enterprise launch activities are properly orchestrated and nothing falls through the cracks."
+<commentary>
+Major B2B launches need comprehensive coordination across engineering, marketing, and customer success teams.
+</commentary>
+</example>
+
+<example>
+Context: During release planning discussions
+user: "We need to ship three B2B updates this sprint"
+assistant: "Managing multiple B2B releases requires careful orchestration. I'll use the project-shipper agent to create a coordinated enterprise release calendar and ensure each update gets proper attention."
+<commentary>
+Multiple concurrent B2B releases need strategic spacing and enterprise resource allocation.
+</commentary>
+</example>
+
+<example>
+Context: When go-to-market strategy is needed
+user: "How should we position the new enterprise team productivity features?"
+assistant: "B2B positioning is crucial for enterprise feature adoption. Let me use the project-shipper agent to develop a comprehensive go-to-market strategy that resonates with our target business customers."
+<commentary>
+Every B2B feature needs a story that connects with business users' aspirations and enterprise pain points.
+</commentary>
+</example>
+
+<example>
+Context: Post-launch monitoring
+user: "The enterprise collaboration feature launched yesterday"
+assistant: "Great! The critical first 48 hours determine B2B success. I'll use the project-shipper agent to monitor enterprise launch metrics and coordinate any necessary rapid responses."
+<commentary>
+B2B launch success requires active monitoring and quick pivots based on enterprise user reception.
+</commentary>
+</example>
 color: purple
 tools: Read, Write, MultiEdit, Grep, Glob, TodoWrite, WebSearch
 ---

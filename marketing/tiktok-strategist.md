@@ -1,6 +1,42 @@
 ---
 name: b2b-video-strategist
-description: Use this agent when you need to create B2B video marketing strategies, develop professional viral content ideas, plan LinkedIn and business video campaigns, or optimize for professional platform algorithms. This agent specializes in creating shareable business moments and leveraging professional trends for B2B app growth. Examples:\n\n<example>\nContext: Launching a new app and need TikTok strategy\nuser: "We're launching our B2B team productivity app next week. How should we approach LinkedIn video marketing?"\nassistant: "LinkedIn video will be crucial for your B2B launch. Let me use the b2b-video-strategist agent to create a comprehensive professional video marketing strategy for your team productivity app."\n<commentary>\nNew B2B app launches benefit from LinkedIn's professional viral potential and business user base.\n</commentary>\n</example>\n\n<example>\nContext: Creating viral content for an existing app\nuser: "Our B2B wellness platform needs more enterprise downloads. What kind of professional video content should we make?"\nassistant: "I'll help you create viral B2B content ideas. Let me use the b2b-video-strategist agent to develop content that showcases your platform in trending professional formats."\n<commentary>\nExisting B2B apps can boost downloads through strategic professional content that fits business platform culture.\n</commentary>\n</example>\n\n<example>\nContext: Identifying TikTok influencers for partnerships\nuser: "Should we work with LinkedIn thought leaders and business influencers to promote our B2B platform?"\nassistant: "Business thought leader partnerships can be very effective. Let me use the b2b-video-strategist agent to identify the right professional influencers and collaboration strategies for your B2B platform."\n<commentary>\nInfluencer partnerships on TikTok can provide authentic reach to target audiences.\n</commentary>\n</example>\n\n<example>\nContext: Optimizing app features for TikTok sharing\nuser: "How can we make our B2B platform more LinkedIn-friendly and shareable for business users?"\nassistant: "Making your B2B platform LinkedIn-native is smart. I'll use the b2b-video-strategist agent to identify features and moments in your platform that business users would want to share on LinkedIn."\n<commentary>\nB2B platforms with built-in LinkedIn-worthy moments see higher organic growth through professional user-generated content.\n</commentary>\n</example>
+description: Use this agent when you need to create B2B video marketing strategies, develop professional viral content ideas, plan LinkedIn and business video campaigns, or optimize for professional platform algorithms. This agent specializes in creating shareable business moments and leveraging professional trends for B2B app growth. Examples:
+
+<example>
+Context: Launching a new app and need TikTok strategy
+user: "We're launching our B2B team productivity app next week. How should we approach LinkedIn video marketing?"
+assistant: "LinkedIn video will be crucial for your B2B launch. Let me use the b2b-video-strategist agent to create a comprehensive professional video marketing strategy for your team productivity app."
+<commentary>
+New B2B app launches benefit from LinkedIn's professional viral potential and business user base.
+</commentary>
+</example>
+
+<example>
+Context: Creating viral content for an existing app
+user: "Our B2B wellness platform needs more enterprise downloads. What kind of professional video content should we make?"
+assistant: "I'll help you create viral B2B content ideas. Let me use the b2b-video-strategist agent to develop content that showcases your platform in trending professional formats."
+<commentary>
+Existing B2B apps can boost downloads through strategic professional content that fits business platform culture.
+</commentary>
+</example>
+
+<example>
+Context: Identifying TikTok influencers for partnerships
+user: "Should we work with LinkedIn thought leaders and business influencers to promote our B2B platform?"
+assistant: "Business thought leader partnerships can be very effective. Let me use the b2b-video-strategist agent to identify the right professional influencers and collaboration strategies for your B2B platform."
+<commentary>
+Influencer partnerships on TikTok can provide authentic reach to target audiences.
+</commentary>
+</example>
+
+<example>
+Context: Optimizing app features for TikTok sharing
+user: "How can we make our B2B platform more LinkedIn-friendly and shareable for business users?"
+assistant: "Making your B2B platform LinkedIn-native is smart. I'll use the b2b-video-strategist agent to identify features and moments in your platform that business users would want to share on LinkedIn."
+<commentary>
+B2B platforms with built-in LinkedIn-worthy moments see higher organic growth through professional user-generated content.
+</commentary>
+</example>
 color: pink
 tools: Write, Read, WebSearch, WebFetch
 ---

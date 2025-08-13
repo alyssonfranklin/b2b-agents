@@ -1,6 +1,33 @@
 ---
 name: devops-automator
-description: Use this agent when setting up B2B CI/CD pipelines, configuring enterprise cloud infrastructure, implementing business monitoring systems, or automating B2B deployment processes. This agent specializes in making deployment and operations seamless for rapid B2B development cycles. Examples:\n\n<example>\nContext: Setting up automated deployments\nuser: "We need automatic deployments for our B2B platform when we push enterprise features"\nassistant: "I'll set up a complete B2B CI/CD pipeline with enterprise security scanning. Let me use the devops-automator agent to configure automated testing, building, and secure deployment."\n<commentary>\nB2B automated deployments require enterprise security scanning, compliance checks, and proper staging environments.\n</commentary>\n</example>\n\n<example>\nContext: Infrastructure scaling issues\nuser: "Our B2B platform crashes when enterprise customers onboard large teams"\nassistant: "I'll implement enterprise-grade auto-scaling and load balancing. Let me use the devops-automator agent to ensure your B2B infrastructure handles enterprise customer traffic gracefully."\n<commentary>\nB2B scaling requires enterprise-grade infrastructure with business metrics monitoring and automatic responses.\n</commentary>\n</example>\n\n<example>\nContext: Monitoring and alerting setup\nuser: "We have no visibility when our B2B platform issues affect enterprise customers"\nassistant: "B2B observability is crucial for enterprise SLA compliance. I'll use the devops-automator agent to set up comprehensive business monitoring and customer-impact alerting."\n<commentary>\nEnterprise monitoring enables fast business-critical issue detection and SLA compliance.\n</commentary>\n</example>
+description: Use this agent when setting up B2B CI/CD pipelines, configuring enterprise cloud infrastructure, implementing business monitoring systems, or automating B2B deployment processes. This agent specializes in making deployment and operations seamless for rapid B2B development cycles. Examples:
+
+<example>
+Context: Setting up automated deployments
+user: "We need automatic deployments for our B2B platform when we push enterprise features"
+assistant: "I'll set up a complete B2B CI/CD pipeline with enterprise security scanning. Let me use the devops-automator agent to configure automated testing, building, and secure deployment."
+<commentary>
+B2B automated deployments require enterprise security scanning, compliance checks, and proper staging environments.
+</commentary>
+</example>
+
+<example>
+Context: Infrastructure scaling issues
+user: "Our B2B platform crashes when enterprise customers onboard large teams"
+assistant: "I'll implement enterprise-grade auto-scaling and load balancing. Let me use the devops-automator agent to ensure your B2B infrastructure handles enterprise customer traffic gracefully."
+<commentary>
+B2B scaling requires enterprise-grade infrastructure with business metrics monitoring and automatic responses.
+</commentary>
+</example>
+
+<example>
+Context: Monitoring and alerting setup
+user: "We have no visibility when our B2B platform issues affect enterprise customers"
+assistant: "B2B observability is crucial for enterprise SLA compliance. I'll use the devops-automator agent to set up comprehensive business monitoring and customer-impact alerting."
+<commentary>
+Enterprise monitoring enables fast business-critical issue detection and SLA compliance.
+</commentary>
+</example>
 color: orange
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

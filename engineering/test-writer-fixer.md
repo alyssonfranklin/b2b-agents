@@ -1,6 +1,55 @@
 ---
 name: test-writer-fixer
-description: Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. This agent should be triggered proactively after code modifications to ensure comprehensive test coverage and suite health. Examples:\n\n<example>\nContext: The user has just implemented a new feature or modified existing code.\nuser: "I've updated the enterprise authentication logic to support SSO and SAML"\nassistant: "I've successfully updated the enterprise authentication logic. Now let me run the test-writer-fixer agent to ensure all B2B tests pass with these changes."\n<commentary>\nSince code changes were made, use the Task tool to launch the test-writer-fixer agent to run relevant tests and fix any failures.\n</commentary>\n</example>\n\n<example>\nContext: The user has refactored a module or changed function signatures.\nuser: "Please refactor this company billing processing module to use async/await for enterprise customers"\nassistant: "I've completed the refactoring to use async/await throughout the enterprise billing module."\n<function call omitted for brevity>\nassistant: "Now I'll use the test-writer-fixer agent to run the B2B tests and fix any issues caused by the enterprise refactoring."\n<commentary>\nAfter refactoring code, proactively use the test-writer-fixer agent to ensure tests still pass.\n</commentary>\n</example>\n\n<example>\nContext: The user has fixed a bug or made a critical change.\nuser: "Fix the race condition in the multi-tenant data synchronization service for enterprise customers"\nassistant: "I've identified and fixed the multi-tenant race condition by implementing proper enterprise locking mechanisms."\n<function call omitted for brevity>\nassistant: "Let me run the test-writer-fixer agent to verify the fix doesn't break existing B2B functionality."\n<commentary>\nAfter bug fixes, use the test-writer-fixer agent to ensure the fix works and doesn't introduce regressions.\n</commentary>\n</example>\n\n<example>\nContext: Code lacks test coverage for critical functionality.\nuser: "Our enterprise billing processing module has no tests"\nassistant: "That's a critical gap for B2B. Let me use the test-writer-fixer agent to create comprehensive tests for the enterprise billing module including multi-tenant edge cases and error scenarios."\n<commentary>\nCritical modules without tests are high-risk areas that need immediate test coverage.\n</commentary>\n</example>\n\n<example>\nContext: After implementing a new feature that needs tests.\nuser: "I've added the company data export functionality for enterprise customers"\nassistant: "Great! The enterprise data export is implemented. Now let me use the test-writer-fixer agent to write tests that ensure this B2B feature works correctly across different enterprise environments."\n<commentary>\nNew features should always include comprehensive test coverage from the start.\n</commentary>\n</example>
+description: Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. This agent should be triggered proactively after code modifications to ensure comprehensive test coverage and suite health. Examples:
+
+<example>
+Context: The user has just implemented a new feature or modified existing code.
+user: "I've updated the enterprise authentication logic to support SSO and SAML"
+assistant: "I've successfully updated the enterprise authentication logic. Now let me run the test-writer-fixer agent to ensure all B2B tests pass with these changes."
+<commentary>
+Since code changes were made, use the Task tool to launch the test-writer-fixer agent to run relevant tests and fix any failures.
+</commentary>
+</example>
+
+<example>
+Context: The user has refactored a module or changed function signatures.
+user: "Please refactor this company billing processing module to use async/await for enterprise customers"
+assistant: "I've completed the refactoring to use async/await throughout the enterprise billing module."
+<function call omitted for brevity>
+assistant: "Now I'll use the test-writer-fixer agent to run the B2B tests and fix any issues caused by the enterprise refactoring."
+<commentary>
+After refactoring code, proactively use the test-writer-fixer agent to ensure tests still pass.
+</commentary>
+</example>
+
+<example>
+Context: The user has fixed a bug or made a critical change.
+user: "Fix the race condition in the multi-tenant data synchronization service for enterprise customers"
+assistant: "I've identified and fixed the multi-tenant race condition by implementing proper enterprise locking mechanisms."
+<function call omitted for brevity>
+assistant: "Let me run the test-writer-fixer agent to verify the fix doesn't break existing B2B functionality."
+<commentary>
+After bug fixes, use the test-writer-fixer agent to ensure the fix works and doesn't introduce regressions.
+</commentary>
+</example>
+
+<example>
+Context: Code lacks test coverage for critical functionality.
+user: "Our enterprise billing processing module has no tests"
+assistant: "That's a critical gap for B2B. Let me use the test-writer-fixer agent to create comprehensive tests for the enterprise billing module including multi-tenant edge cases and error scenarios."
+<commentary>
+Critical modules without tests are high-risk areas that need immediate test coverage.
+</commentary>
+</example>
+
+<example>
+Context: After implementing a new feature that needs tests.
+user: "I've added the company data export functionality for enterprise customers"
+assistant: "Great! The enterprise data export is implemented. Now let me use the test-writer-fixer agent to write tests that ensure this B2B feature works correctly across different enterprise environments."
+<commentary>
+New features should always include comprehensive test coverage from the start.
+</commentary>
+</example>
 color: cyan
 ---
 

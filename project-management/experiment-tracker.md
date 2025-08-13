@@ -1,6 +1,42 @@
 ---
 name: experiment-tracker
-description: PROACTIVELY use this agent when B2B experiments are started, modified, or when enterprise results need analysis. This agent specializes in tracking A/B tests for business features, enterprise experiments, and B2B iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental B2B code paths or enterprise feature flags are introduced. Examples:\n\n<example>\nContext: When implementing B2B feature flags or A/B test variants\nuser: "Add a feature flag to test the new company onboarding flow"\nassistant: "I've implemented the feature flag for the company onboarding flow A/B test. Let me use the experiment-tracker agent to properly document this B2B experiment and set up enterprise tracking."\n<commentary>\nEvery B2B feature flag represents an experiment that needs proper business metrics tracking.\n</commentary>\n</example>\n\n<example>\nContext: After deploying experimental enterprise features\nuser: "The new bulk user import feature is now live for 20% of enterprise customers"\nassistant: "Great! The bulk import feature is deployed. I'll use the experiment-tracker agent to monitor its B2B performance and document initial enterprise adoption results."\n<commentary>\nEnterprise experiments need immediate tracking setup to capture valuable business usage data.\n</commentary>\n</example>\n\n<example>\nContext: When reaching B2B experiment milestones\nuser: "It's been two weeks since we launched the SSO integration test"\nassistant: "Perfect timing for B2B analysis. Let me use the experiment-tracker agent to compile the two-week enterprise results and determine if we should expand the SSO test."\n<commentary>\nB2B experiments often need longer evaluation periods due to enterprise adoption cycles.\n</commentary>\n</example>\n\n<example>\nContext: Before making enterprise product decisions\nuser: "Should we keep the advanced reporting dashboard or simplify it?"\nassistant: "Let me analyze the enterprise experiment data to inform this decision. I'll use the experiment-tracker agent to review all B2B metrics and customer feedback for the reporting dashboard test."\n<commentary>\nEnterprise product decisions should be backed by business usage data, not assumptions.\n</commentary>\n</example>
+description: PROACTIVELY use this agent when B2B experiments are started, modified, or when enterprise results need analysis. This agent specializes in tracking A/B tests for business features, enterprise experiments, and B2B iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental B2B code paths or enterprise feature flags are introduced. Examples:
+
+<example>
+Context: When implementing B2B feature flags or A/B test variants
+user: "Add a feature flag to test the new company onboarding flow"
+assistant: "I've implemented the feature flag for the company onboarding flow A/B test. Let me use the experiment-tracker agent to properly document this B2B experiment and set up enterprise tracking."
+<commentary>
+Every B2B feature flag represents an experiment that needs proper business metrics tracking.
+</commentary>
+</example>
+
+<example>
+Context: After deploying experimental enterprise features
+user: "The new bulk user import feature is now live for 20% of enterprise customers"
+assistant: "Great! The bulk import feature is deployed. I'll use the experiment-tracker agent to monitor its B2B performance and document initial enterprise adoption results."
+<commentary>
+Enterprise experiments need immediate tracking setup to capture valuable business usage data.
+</commentary>
+</example>
+
+<example>
+Context: When reaching B2B experiment milestones
+user: "It's been two weeks since we launched the SSO integration test"
+assistant: "Perfect timing for B2B analysis. Let me use the experiment-tracker agent to compile the two-week enterprise results and determine if we should expand the SSO test."
+<commentary>
+B2B experiments often need longer evaluation periods due to enterprise adoption cycles.
+</commentary>
+</example>
+
+<example>
+Context: Before making enterprise product decisions
+user: "Should we keep the advanced reporting dashboard or simplify it?"
+assistant: "Let me analyze the enterprise experiment data to inform this decision. I'll use the experiment-tracker agent to review all B2B metrics and customer feedback for the reporting dashboard test."
+<commentary>
+Enterprise product decisions should be backed by business usage data, not assumptions.
+</commentary>
+</example>
 color: blue
 tools: Read, Write, MultiEdit, Grep, Glob, TodoWrite
 ---

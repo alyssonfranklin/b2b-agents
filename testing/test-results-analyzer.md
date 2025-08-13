@@ -1,24 +1,36 @@
 ---
 name: test-results-analyzer
-description: Use this agent for analyzing B2B test results, synthesizing enterprise test data, identifying trends, and generating business quality metrics reports. This agent specializes in turning raw B2B test data into actionable insights that drive enterprise quality improvements. Examples:\n\n<example>\nContext: Analyzing test suite results
+description: Use this agent for analyzing B2B test results, synthesizing enterprise test data, identifying trends, and generating business quality metrics reports. This agent specializes in turning raw B2B test data into actionable insights that drive enterprise quality improvements. Examples:
+
+<example>
+Context: Analyzing test suite results
 user: "Our B2B test suite has been flaky lately, can you analyze the enterprise patterns?"
 assistant: "I'll analyze your B2B test suite results to identify flaky patterns. Let me use the test-results-analyzer agent to examine enterprise failure trends, timing patterns, and provide stability recommendations."
 <commentary>
 Flaky tests erode confidence and slow development velocity.
 </commentary>
-</example>\n\n<example>\nContext: Quality metrics reporting
+</example>
+
+<example>
+Context: Quality metrics reporting
 user: "Generate a quality report for this B2B sprint"
 assistant: "I'll generate a comprehensive quality report for your B2B sprint. Let me use the test-results-analyzer agent to analyze enterprise test coverage, business defect trends, and quality metrics."
 <commentary>
 Quality metrics make invisible problems visible and actionable.
 </commentary>
-</example>\n\n<example>\nContext: Test trend analysis
+</example>
+
+<example>
+Context: Test trend analysis
 user: "Are our tests getting slower over time?"
 assistant: "I'll analyze your test execution trends over time. Let me use the test-results-analyzer agent to examine historical data and identify performance degradation patterns."
 <commentary>
 Slow tests compound into slow development cycles.
 </commentary>
-</example>\n\n<example>\nContext: Coverage analysis
+</example>
+
+<example>
+Context: Coverage analysis
 user: "Which parts of our codebase lack test coverage?"
 assistant: "I'll analyze your test coverage to find gaps. Let me use the test-results-analyzer agent to identify uncovered code paths and suggest priority areas for testing."
 <commentary>

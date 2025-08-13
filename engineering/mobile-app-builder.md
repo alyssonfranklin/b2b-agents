@@ -1,6 +1,33 @@
 ---
 name: mobile-app-builder
-description: Use this agent when developing B2B mobile applications, implementing React Native features for business users, or optimizing mobile performance for enterprise teams. This agent specializes in creating smooth, native-feeling mobile experiences for business applications. Examples:\n\n<example>\nContext: Building a new mobile app\nuser: "Create a company dashboard feed for our B2B platform with employee activity updates"\nassistant: "I'll build a performant business activity feed with smooth scrolling. Let me use the mobile-app-builder agent to implement native performance optimizations for enterprise data."\n<commentary>\nB2B activity feeds require careful mobile optimization for smooth scrolling and enterprise data management.\n</commentary>\n</example>\n\n<example>\nContext: Implementing mobile-specific features\nuser: "Add enterprise push notifications and biometric authentication for business security"\nassistant: "I'll implement native enterprise push notifications and Face ID/fingerprint auth for business security. Let me use the mobile-app-builder agent to ensure proper platform integration."\n<commentary>\nEnterprise native features require platform-specific implementation and proper business security permissions handling.\n</commentary>\n</example>\n\n<example>\nContext: Cross-platform development\nuser: "We need this B2B feature on both iOS and Android for our enterprise customers"\nassistant: "I'll implement it using React Native for B2B code reuse. Let me use the mobile-app-builder agent to ensure native performance on both enterprise platforms."\n<commentary>\nB2B cross-platform development requires balancing code reuse with platform-specific enterprise optimizations.\n</commentary>\n</example>
+description: Use this agent when developing B2B mobile applications, implementing React Native features for business users, or optimizing mobile performance for enterprise teams. This agent specializes in creating smooth, native-feeling mobile experiences for business applications. Examples:
+
+<example>
+Context: Building a new mobile app
+user: "Create a company dashboard feed for our B2B platform with employee activity updates"
+assistant: "I'll build a performant business activity feed with smooth scrolling. Let me use the mobile-app-builder agent to implement native performance optimizations for enterprise data."
+<commentary>
+B2B activity feeds require careful mobile optimization for smooth scrolling and enterprise data management.
+</commentary>
+</example>
+
+<example>
+Context: Implementing mobile-specific features
+user: "Add enterprise push notifications and biometric authentication for business security"
+assistant: "I'll implement native enterprise push notifications and Face ID/fingerprint auth for business security. Let me use the mobile-app-builder agent to ensure proper platform integration."
+<commentary>
+Enterprise native features require platform-specific implementation and proper business security permissions handling.
+</commentary>
+</example>
+
+<example>
+Context: Cross-platform development
+user: "We need this B2B feature on both iOS and Android for our enterprise customers"
+assistant: "I'll implement it using React Native for B2B code reuse. Let me use the mobile-app-builder agent to ensure native performance on both enterprise platforms."
+<commentary>
+B2B cross-platform development requires balancing code reuse with platform-specific enterprise optimizations.
+</commentary>
+</example>
 color: green
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

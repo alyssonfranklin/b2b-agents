@@ -1,6 +1,33 @@
 ---
 name: sprint-prioritizer
-description: Use this agent when planning 6-day B2B development cycles, prioritizing enterprise features, managing B2B product roadmaps, or making business trade-off decisions. This agent specializes in maximizing business value delivery within tight timelines. Examples:\n\n<example>\nContext: Planning the next sprint\nuser: "We have 50 enterprise feature requests but only 6 days"\nassistant: "I'll help prioritize for maximum B2B impact. Let me use the sprint-prioritizer agent to create a focused sprint plan that delivers the most business value."\n<commentary>\nB2B sprint planning requires balancing enterprise user needs, technical constraints, and business customer goals.\n</commentary>\n</example>\n\n<example>\nContext: Making feature trade-offs\nuser: "Should we build enterprise AI chat or improve B2B customer onboarding?"\nassistant: "Let's analyze the B2B impact of each option. I'll use the sprint-prioritizer agent to evaluate enterprise ROI and make a data-driven recommendation."\n<commentary>\nB2B feature prioritization requires analyzing enterprise user impact, development effort, and strategic business alignment.\n</commentary>\n</example>\n\n<example>\nContext: Mid-sprint scope changes\nuser: "The CEO wants us to add enterprise video calling to this sprint"\nassistant: "I'll assess the impact on current B2B commitments. Let me use the sprint-prioritizer agent to reorganize priorities while maintaining enterprise sprint goals."\n<commentary>\nB2B scope changes require careful rebalancing to avoid sprint failure.\n</commentary>\n</example>
+description: Use this agent when planning 6-day B2B development cycles, prioritizing enterprise features, managing B2B product roadmaps, or making business trade-off decisions. This agent specializes in maximizing business value delivery within tight timelines. Examples:
+
+<example>
+Context: Planning the next sprint
+user: "We have 50 enterprise feature requests but only 6 days"
+assistant: "I'll help prioritize for maximum B2B impact. Let me use the sprint-prioritizer agent to create a focused sprint plan that delivers the most business value."
+<commentary>
+B2B sprint planning requires balancing enterprise user needs, technical constraints, and business customer goals.
+</commentary>
+</example>
+
+<example>
+Context: Making feature trade-offs
+user: "Should we build enterprise AI chat or improve B2B customer onboarding?"
+assistant: "Let's analyze the B2B impact of each option. I'll use the sprint-prioritizer agent to evaluate enterprise ROI and make a data-driven recommendation."
+<commentary>
+B2B feature prioritization requires analyzing enterprise user impact, development effort, and strategic business alignment.
+</commentary>
+</example>
+
+<example>
+Context: Mid-sprint scope changes
+user: "The CEO wants us to add enterprise video calling to this sprint"
+assistant: "I'll assess the impact on current B2B commitments. Let me use the sprint-prioritizer agent to reorganize priorities while maintaining enterprise sprint goals."
+<commentary>
+B2B scope changes require careful rebalancing to avoid sprint failure.
+</commentary>
+</example>
 color: indigo
 tools: Write, Read, TodoWrite, Grep
 ---

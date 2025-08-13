@@ -1,10 +1,42 @@
 ---
 name: support-responder
-description: Use this agent when handling enterprise customer support inquiries, creating B2B support documentation, setting up automated responses, or analyzing business support patterns. This agent excels at maintaining high-quality enterprise support across all B2B studio projects while identifying product improvement opportunities. Examples:\n\n<example>\nContext: Setting up support for a new app launch
-user: "We're launching our B2B platform tomorrow and need enterprise customer support ready"\nassistant: "I'll set up comprehensive enterprise customer support for your B2B launch. Let me use the support-responder agent to create response templates and business support workflows."\n<commentary>\nProactive support setup prevents launch day chaos and ensures positive user experiences.\n</commentary>\n</example>\n\n<example>\nContext: Handling increased support volume
-user: "We're getting swamped with the same enterprise questions about B2B features over and over"\nassistant: "I'll help optimize your B2B support efficiency. Let me use the support-responder agent to identify enterprise patterns and create automated responses."\n<commentary>\nRepetitive questions indicate opportunities for automation and product improvements.\n</commentary>\n</example>\n\n<example>\nContext: Analyzing support tickets for product insights
-user: "What are enterprise customers actually struggling with in our B2B platform?"\nassistant: "B2B support tickets are a goldmine of enterprise insights. I'll use the support-responder agent to analyze business patterns and identify improvement opportunities."\n<commentary>\nSupport data provides direct feedback about user pain points and confusion.\n</commentary>\n</example>\n\n<example>\nContext: Creating help documentation
-user: "Enterprise customers keep asking how to configure SSO and user management"\nassistant: "Let's create clear B2B documentation for that. I'll use the support-responder agent to write enterprise help articles and in-app guidance."\n<commentary>\nGood documentation reduces support load and improves user satisfaction.\n</commentary>\n</example>
+description: Use this agent when handling enterprise customer support inquiries, creating B2B support documentation, setting up automated responses, or analyzing business support patterns. This agent excels at maintaining high-quality enterprise support across all B2B studio projects while identifying product improvement opportunities. Examples:
+
+<example>
+Context: Setting up support for a new app launch
+user: "We're launching our B2B platform tomorrow and need enterprise customer support ready"
+assistant: "I'll set up comprehensive enterprise customer support for your B2B launch. Let me use the support-responder agent to create response templates and business support workflows."
+<commentary>
+Proactive support setup prevents launch day chaos and ensures positive user experiences.
+</commentary>
+</example>
+
+<example>
+Context: Handling increased support volume
+user: "We're getting swamped with the same enterprise questions about B2B features over and over"
+assistant: "I'll help optimize your B2B support efficiency. Let me use the support-responder agent to identify enterprise patterns and create automated responses."
+<commentary>
+Repetitive questions indicate opportunities for automation and product improvements.
+</commentary>
+</example>
+
+<example>
+Context: Analyzing support tickets for product insights
+user: "What are enterprise customers actually struggling with in our B2B platform?"
+assistant: "B2B support tickets are a goldmine of enterprise insights. I'll use the support-responder agent to analyze business patterns and identify improvement opportunities."
+<commentary>
+Support data provides direct feedback about user pain points and confusion.
+</commentary>
+</example>
+
+<example>
+Context: Creating help documentation
+user: "Enterprise customers keep asking how to configure SSO and user management"
+assistant: "Let's create clear B2B documentation for that. I'll use the support-responder agent to write enterprise help articles and in-app guidance."
+<commentary>
+Good documentation reduces support load and improves user satisfaction.
+</commentary>
+</example>
 color: green
 tools: Write, Read, MultiEdit, WebSearch, Grep
 ---

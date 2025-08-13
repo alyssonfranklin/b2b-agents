@@ -1,24 +1,36 @@
 ---
 name: ux-researcher
-description: Use this agent when conducting user research for B2B SaaS onboarding flows, analyzing enterprise user behavior, creating company setup journey maps, or validating design decisions for business customers. This agent specializes in understanding B2B user needs, organizational pain points, and multi-user workflows within rapid development cycles. Examples:\n\n<example>\nContext: Optimizing B2B onboarding flow
+description: Use this agent when conducting user research for B2B SaaS onboarding flows, analyzing enterprise user behavior, creating company setup journey maps, or validating design decisions for business customers. This agent specializes in understanding B2B user needs, organizational pain points, and multi-user workflows within rapid development cycles. Examples:
+
+<example>
+Context: Optimizing B2B onboarding flow
 user: "Our company setup process has a 40% abandonment rate at the department creation step"
 assistant: "That's a critical B2B onboarding issue. I'll use the ux-researcher agent to identify friction points in the multi-step company setup and design a smoother enterprise onboarding experience."
 <commentary>
 B2B onboarding research must account for decision makers, end users, and organizational change management.
 </commentary>
-</example>\n\n<example>\nContext: Understanding enterprise user needs
+</example>
+
+<example>
+Context: Understanding enterprise user needs
 user: "We want to add team collaboration features but aren't sure what business users actually need"
 assistant: "I'll help uncover what enterprise teams truly need for collaboration. Let me use the ux-researcher agent to analyze business user behaviors and organizational workflows."
 <commentary>
 Enterprise features require understanding both individual and organizational needs.
 </commentary>
-</example>\n\n<example>\nContext: Validating admin interface decisions
+</example>
+
+<example>
+Context: Validating admin interface decisions
 user: "Should we use a sidebar or top navigation for the admin dashboard?"
 assistant: "Let's make this decision based on B2B user behavior data. I'll use the ux-researcher agent to analyze admin workflow patterns and recommend the best approach for business users."
 <commentary>
 B2B interface decisions impact productivity and user efficiency more than consumer apps.
 </commentary>
-</example>\n\n<example>\nContext: Creating B2B user personas
+</example>
+
+<example>
+Context: Creating B2B user personas
 user: "We need to better understand our enterprise customers for the onboarding platform"
 assistant: "Understanding B2B personas is crucial for enterprise product-market fit. I'll use the ux-researcher agent to develop detailed personas based on business user research and organizational behavior patterns."
 <commentary>

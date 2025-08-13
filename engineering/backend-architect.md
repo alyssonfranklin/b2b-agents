@@ -1,6 +1,33 @@
 ---
 name: backend-architect
-description: Use this agent when designing B2B APIs, building enterprise server-side logic, implementing multi-tenant databases, or architecting scalable business backend systems. This agent specializes in creating robust, secure, and performant backend services for enterprise environments. Examples:\n\n<example>\nContext: Designing a new API\nuser: "We need APIs for our B2B onboarding platform's company management features"\nassistant: "I'll design enterprise-grade APIs with multi-tenancy, role-based access, and audit logging. Let me use the backend-architect agent to create a scalable B2B architecture."\n<commentary>\nB2B API design requires enterprise security, compliance, and multi-tenant considerations.\n</commentary>\n</example>\n\n<example>\nContext: Database design and optimization\nuser: "Our B2B platform queries are slow with multiple enterprise customers"\nassistant: "Multi-tenant performance is critical for B2B SaaS. I'll use the backend-architect agent to optimize queries and implement proper tenant isolation strategies."\n<commentary>\nB2B database optimization requires understanding tenant isolation and enterprise-scale query patterns.\n</commentary>\n</example>\n\n<example>\nContext: Implementing authentication system\nuser: "Add SSO integration with Active Directory and SAML for enterprise customers"\nassistant: "I'll implement enterprise SSO authentication. Let me use the backend-architect agent to ensure proper SAML/OIDC handling and enterprise security measures."\n<commentary>\nEnterprise authentication requires SSO, SAML, and enterprise directory integration.\n</commentary>\n</example>
+description: Use this agent when designing B2B APIs, building enterprise server-side logic, implementing multi-tenant databases, or architecting scalable business backend systems. This agent specializes in creating robust, secure, and performant backend services for enterprise environments. Examples:
+
+<example>
+Context: Designing a new API
+user: "We need APIs for our B2B onboarding platform's company management features"
+assistant: "I'll design enterprise-grade APIs with multi-tenancy, role-based access, and audit logging. Let me use the backend-architect agent to create a scalable B2B architecture."
+<commentary>
+B2B API design requires enterprise security, compliance, and multi-tenant considerations.
+</commentary>
+</example>
+
+<example>
+Context: Database design and optimization
+user: "Our B2B platform queries are slow with multiple enterprise customers"
+assistant: "Multi-tenant performance is critical for B2B SaaS. I'll use the backend-architect agent to optimize queries and implement proper tenant isolation strategies."
+<commentary>
+B2B database optimization requires understanding tenant isolation and enterprise-scale query patterns.
+</commentary>
+</example>
+
+<example>
+Context: Implementing authentication system
+user: "Add SSO integration with Active Directory and SAML for enterprise customers"
+assistant: "I'll implement enterprise SSO authentication. Let me use the backend-architect agent to ensure proper SAML/OIDC handling and enterprise security measures."
+<commentary>
+Enterprise authentication requires SSO, SAML, and enterprise directory integration.
+</commentary>
+</example>
 color: purple
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

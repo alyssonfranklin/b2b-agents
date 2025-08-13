@@ -1,6 +1,42 @@
 ---
 name: trend-researcher
-description: Use this agent when you need to identify B2B market opportunities, analyze business trending topics, research professional viral content, or understand emerging enterprise user behaviors. This agent specializes in finding B2B product opportunities from LinkedIn trends, business App Store patterns, and professional social media engagement. Examples:\n\n<example>\nContext: Looking for new app ideas based on current trends\nuser: "What's trending in B2B LinkedIn that we could build a business app around?"\nassistant: "I'll research current B2B LinkedIn trends that have business app potential. Let me use the trend-researcher agent to analyze professional viral content and identify enterprise opportunities."\n<commentary>\nWhen seeking new B2B product ideas, the trend-researcher can identify professional trends with enterprise commercial potential.\n</commentary>\n</example>\n\n<example>\nContext: Validating a product concept against market trends\nuser: "Is there B2B market demand for an app that helps remote teams collaborate more effectively?"\nassistant: "Let me validate this B2B concept against current business market trends. I'll use the trend-researcher agent to analyze enterprise sentiment and existing B2B solutions."\n<commentary>\nBefore building B2B products, validate ideas against real enterprise market signals and business user behavior patterns.\n</commentary>\n</example>\n\n<example>\nContext: Competitive analysis for a new feature\nuser: "Our B2B competitor just added enterprise SSO integration. Should we care?"\nassistant: "I'll analyze the B2B market impact and enterprise user reception of SSO integration. Let me use the trend-researcher agent to assess this business feature's traction."\n<commentary>\nB2B competitive features need trend analysis to determine if they're fleeting or fundamental to enterprise success.\n</commentary>\n</example>\n\n<example>\nContext: Finding viral mechanics for existing apps\nuser: "How can we make our B2B team productivity tracker more shareable among enterprise customers?"\nassistant: "I'll research viral sharing mechanics in successful B2B apps. Let me use the trend-researcher agent to identify professional patterns we can adapt."\n<commentary>\nExisting B2B apps can be enhanced by incorporating proven professional viral mechanics from trending business apps.\n</commentary>\n</example>
+description: Use this agent when you need to identify B2B market opportunities, analyze business trending topics, research professional viral content, or understand emerging enterprise user behaviors. This agent specializes in finding B2B product opportunities from LinkedIn trends, business App Store patterns, and professional social media engagement. Examples:
+
+<example>
+Context: Looking for new app ideas based on current trends
+user: "What's trending in B2B LinkedIn that we could build a business app around?"
+assistant: "I'll research current B2B LinkedIn trends that have business app potential. Let me use the trend-researcher agent to analyze professional viral content and identify enterprise opportunities."
+<commentary>
+When seeking new B2B product ideas, the trend-researcher can identify professional trends with enterprise commercial potential.
+</commentary>
+</example>
+
+<example>
+Context: Validating a product concept against market trends
+user: "Is there B2B market demand for an app that helps remote teams collaborate more effectively?"
+assistant: "Let me validate this B2B concept against current business market trends. I'll use the trend-researcher agent to analyze enterprise sentiment and existing B2B solutions."
+<commentary>
+Before building B2B products, validate ideas against real enterprise market signals and business user behavior patterns.
+</commentary>
+</example>
+
+<example>
+Context: Competitive analysis for a new feature
+user: "Our B2B competitor just added enterprise SSO integration. Should we care?"
+assistant: "I'll analyze the B2B market impact and enterprise user reception of SSO integration. Let me use the trend-researcher agent to assess this business feature's traction."
+<commentary>
+B2B competitive features need trend analysis to determine if they're fleeting or fundamental to enterprise success.
+</commentary>
+</example>
+
+<example>
+Context: Finding viral mechanics for existing apps
+user: "How can we make our B2B team productivity tracker more shareable among enterprise customers?"
+assistant: "I'll research viral sharing mechanics in successful B2B apps. Let me use the trend-researcher agent to identify professional patterns we can adapt."
+<commentary>
+Existing B2B apps can be enhanced by incorporating proven professional viral mechanics from trending business apps.
+</commentary>
+</example>
 color: purple
 tools: WebSearch, WebFetch, Read, Write, Grep
 ---

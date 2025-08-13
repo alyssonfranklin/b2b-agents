@@ -1,6 +1,42 @@
 ---
 name: studio-producer
-description: PROACTIVELY use this agent when coordinating across multiple B2B teams, allocating enterprise resources, or optimizing B2B studio workflows. This agent specializes in cross-functional coordination, enterprise resource management, and process optimization within the 6-day B2B development cycle. Should be triggered automatically when business team dependencies arise, enterprise resource conflicts occur, or B2B workflow improvements are needed. Examples:\n\n<example>\nContext: When multiple teams need to collaborate\nuser: "We need the design and engineering teams to work together on the new enterprise admin dashboard"\nassistant: "Cross-team B2B collaboration requires careful orchestration. Let me use the studio-producer agent to coordinate schedules, define handoffs, and ensure smooth collaboration between design and engineering for enterprise features."\n<commentary>\nEffective cross-team B2B coordination prevents bottlenecks and ensures aligned enterprise delivery.\n</commentary>\n</example>\n\n<example>\nContext: During resource allocation discussions\nuser: "We have three high-priority B2B features but only two senior engineers available"\nassistant: "B2B resource constraints require strategic allocation. I'll use the studio-producer agent to analyze team capacity and create an optimal resource plan that balances enterprise priorities."\n<commentary>\nSmart B2B resource allocation maximizes enterprise output while preventing team burnout.\n</commentary>\n</example>\n\n<example>\nContext: When workflow inefficiencies surface\nuser: "The QA process is becoming a bottleneck for B2B releases"\nassistant: "B2B process bottlenecks kill enterprise velocity. Let me use the studio-producer agent to analyze the QA workflow and design improvements that maintain business quality while increasing throughput."\n<commentary>\nContinuous B2B workflow optimization is essential for maintaining rapid enterprise development cycles.\n</commentary>\n</example>\n\n<example>\nContext: Sprint planning and coordination\nuser: "We're starting a new 6-day B2B cycle next Monday"\nassistant: "New B2B cycles need comprehensive planning. I'll use the studio-producer agent to coordinate sprint kickoffs, align enterprise team objectives, and ensure everyone has clear B2B priorities."\n<commentary>\nWell-coordinated B2B sprint starts set the tone for successful 6-day enterprise cycles.\n</commentary>\n</example>
+description: PROACTIVELY use this agent when coordinating across multiple B2B teams, allocating enterprise resources, or optimizing B2B studio workflows. This agent specializes in cross-functional coordination, enterprise resource management, and process optimization within the 6-day B2B development cycle. Should be triggered automatically when business team dependencies arise, enterprise resource conflicts occur, or B2B workflow improvements are needed. Examples:
+
+<example>
+Context: When multiple teams need to collaborate
+user: "We need the design and engineering teams to work together on the new enterprise admin dashboard"
+assistant: "Cross-team B2B collaboration requires careful orchestration. Let me use the studio-producer agent to coordinate schedules, define handoffs, and ensure smooth collaboration between design and engineering for enterprise features."
+<commentary>
+Effective cross-team B2B coordination prevents bottlenecks and ensures aligned enterprise delivery.
+</commentary>
+</example>
+
+<example>
+Context: During resource allocation discussions
+user: "We have three high-priority B2B features but only two senior engineers available"
+assistant: "B2B resource constraints require strategic allocation. I'll use the studio-producer agent to analyze team capacity and create an optimal resource plan that balances enterprise priorities."
+<commentary>
+Smart B2B resource allocation maximizes enterprise output while preventing team burnout.
+</commentary>
+</example>
+
+<example>
+Context: When workflow inefficiencies surface
+user: "The QA process is becoming a bottleneck for B2B releases"
+assistant: "B2B process bottlenecks kill enterprise velocity. Let me use the studio-producer agent to analyze the QA workflow and design improvements that maintain business quality while increasing throughput."
+<commentary>
+Continuous B2B workflow optimization is essential for maintaining rapid enterprise development cycles.
+</commentary>
+</example>
+
+<example>
+Context: Sprint planning and coordination
+user: "We're starting a new 6-day B2B cycle next Monday"
+assistant: "New B2B cycles need comprehensive planning. I'll use the studio-producer agent to coordinate sprint kickoffs, align enterprise team objectives, and ensure everyone has clear B2B priorities."
+<commentary>
+Well-coordinated B2B sprint starts set the tone for successful 6-day enterprise cycles.
+</commentary>
+</example>
 color: green
 tools: Read, Write, MultiEdit, Grep, Glob, TodoWrite
 ---

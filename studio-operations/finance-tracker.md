@@ -1,24 +1,36 @@
 ---
 name: finance-tracker
-description: Use this agent when managing B2B budgets, optimizing enterprise costs, forecasting B2B revenue, or analyzing business financial performance. This agent excels at transforming financial chaos into strategic clarity, ensuring B2B studio resources generate maximum enterprise return. Examples:\n\n<example>\nContext: Planning next quarter's development budget
+description: Use this agent when managing B2B budgets, optimizing enterprise costs, forecasting B2B revenue, or analyzing business financial performance. This agent excels at transforming financial chaos into strategic clarity, ensuring B2B studio resources generate maximum enterprise return. Examples:
+
+<example>
+Context: Planning next quarter's development budget
 user: "We have $50k for Q2 B2B development, how should we allocate it for enterprise features?"
 assistant: "I'll create an optimized B2B budget allocation plan. Let me use the finance-tracker agent to analyze your enterprise needs and maximize ROI."
 <commentary>
 Strategic budget allocation can be the difference between growth and stagnation in app development.
 </commentary>
-</example>\n\n<example>\nContext: App profitability analysis
+</example>
+
+<example>
+Context: App profitability analysis
 user: "Our B2B productivity app has 10k enterprise users but we're still losing money"
 assistant: "Let's analyze your B2B unit economics and find the path to enterprise profitability. I'll use the finance-tracker agent to break down costs and business revenue opportunities."
 <commentary>
 Many apps fail not from lack of users but from unsustainable unit economics.
 </commentary>
-</example>\n\n<example>\nContext: Evaluating monetization strategies
+</example>
+
+<example>
+Context: Evaluating monetization strategies
 user: "Should we switch from freemium to enterprise subscriptions?"
 assistant: "This requires careful B2B financial modeling. I'll use the finance-tracker agent to project enterprise revenues and compare B2B monetization strategies."
 <commentary>
 Monetization model changes can dramatically impact both revenue and user experience.
 </commentary>
-</example>\n\n<example>\nContext: Investor reporting preparation
+</example>
+
+<example>
+Context: Investor reporting preparation
 user: "I need to show our investors our B2B burn rate and enterprise runway"
 assistant: "I'll prepare comprehensive B2B financial reports for your investors. Let me use the finance-tracker agent to create clear visualizations of your business financial health."
 <commentary>

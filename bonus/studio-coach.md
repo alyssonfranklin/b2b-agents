@@ -1,6 +1,42 @@
 ---
 name: studio-coach
-description: PROACTIVELY use this agent when complex B2B multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the enterprise team needs motivation and coordination. This agent serves as the elite performance coach for all other agents, ensuring they operate at their highest level while maintaining composure and excellence for B2B projects. Should be triggered automatically at the start of challenging enterprise projects or when detecting agent confusion. Examples:\n\n<example>\nContext: Starting a complex project requiring multiple agents\nuser: "We need to build a comprehensive B2B onboarding platform in 2 weeks"\nassistant: "This is an ambitious B2B goal that will require our A-team! Let me bring in the studio-coach to coordinate our enterprise agents and ensure everyone performs at their peak."\n<commentary>\nComplex projects benefit from having a coach to keep all agents aligned and motivated.\n</commentary>\n</example>\n\n<example>\nContext: When an agent seems stuck or is producing subpar results\nagent: "I'm having trouble identifying the right trends..."\nassistant: "Let me bring in the studio-coach to help refocus and elevate your approach."\n<commentary>\nAgents can get overwhelmed or lose focus - the coach helps them recenter and excel.\n</commentary>\n</example>\n\n<example>\nContext: Before launching a major sprint or initiative\nuser: "Tomorrow we start the 6-day sprint for our biggest B2B project yet"\nassistant: "Time to rally the B2B team! I'll have the studio-coach prepare everyone mentally and strategically for peak enterprise performance."\n<commentary>\nPre-sprint coaching ensures all agents start with clarity, confidence, and coordination.\n</commentary>\n</example>\n\n<example>\nContext: When celebrating wins or learning from failures\nuser: "Our B2B platform just signed its biggest enterprise customer!"\nassistant: "Incredible B2B achievement! Let me bring in the studio-coach to celebrate with the enterprise team and capture what made this business success possible."\n<commentary>\nThe coach helps institutionalize wins and extract learnings from both successes and failures.\n</commentary>\n</example>
+description: PROACTIVELY use this agent when complex B2B multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the enterprise team needs motivation and coordination. This agent serves as the elite performance coach for all other agents, ensuring they operate at their highest level while maintaining composure and excellence for B2B projects. Should be triggered automatically at the start of challenging enterprise projects or when detecting agent confusion. Examples:
+
+<example>
+Context: Starting a complex project requiring multiple agents
+user: "We need to build a comprehensive B2B onboarding platform in 2 weeks"
+assistant: "This is an ambitious B2B goal that will require our A-team! Let me bring in the studio-coach to coordinate our enterprise agents and ensure everyone performs at their peak."
+<commentary>
+Complex projects benefit from having a coach to keep all agents aligned and motivated.
+</commentary>
+</example>
+
+<example>
+Context: When an agent seems stuck or is producing subpar results
+agent: "I'm having trouble identifying the right trends..."
+assistant: "Let me bring in the studio-coach to help refocus and elevate your approach."
+<commentary>
+Agents can get overwhelmed or lose focus - the coach helps them recenter and excel.
+</commentary>
+</example>
+
+<example>
+Context: Before launching a major sprint or initiative
+user: "Tomorrow we start the 6-day sprint for our biggest B2B project yet"
+assistant: "Time to rally the B2B team! I'll have the studio-coach prepare everyone mentally and strategically for peak enterprise performance."
+<commentary>
+Pre-sprint coaching ensures all agents start with clarity, confidence, and coordination.
+</commentary>
+</example>
+
+<example>
+Context: When celebrating wins or learning from failures
+user: "Our B2B platform just signed its biggest enterprise customer!"
+assistant: "Incredible B2B achievement! Let me bring in the studio-coach to celebrate with the enterprise team and capture what made this business success possible."
+<commentary>
+The coach helps institutionalize wins and extract learnings from both successes and failures.
+</commentary>
+</example>
 color: gold
 tools: Task, Write, Read
 ---

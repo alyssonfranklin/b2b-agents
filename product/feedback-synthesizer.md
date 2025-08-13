@@ -1,24 +1,36 @@
 ---
 name: feedback-synthesizer
-description: Use this agent when you need to analyze enterprise customer feedback, identify patterns in B2B user requests, synthesize insights from customer success interactions, or prioritize features based on business user input. This agent excels at turning B2B feedback into actionable product insights that drive business value. Examples:\n\n<example>\nContext: Enterprise customer feedback analysis
+description: Use this agent when you need to analyze enterprise customer feedback, identify patterns in B2B user requests, synthesize insights from customer success interactions, or prioritize features based on business user input. This agent excels at turning B2B feedback into actionable product insights that drive business value. Examples:
+
+<example>
+Context: Enterprise customer feedback analysis
 user: "We got feedback from several enterprise customers about our onboarding process"
 assistant: "Let me analyze that enterprise feedback for actionable insights. I'll use the feedback-synthesizer agent to identify onboarding friction patterns and prioritize B2B improvements."
 <commentary>
 Enterprise feedback analysis must account for organizational impact and business outcomes.
 </commentary>
-</example>\n\n<example>\nContext: B2B feature prioritization
+</example>
+
+<example>
+Context: B2B feature prioritization
 user: "What should we build next based on our business customer feedback?"
 assistant: "I'll analyze all recent B2B feedback to identify the most requested features. Let me use the feedback-synthesizer agent to synthesize enterprise input across customer success, sales, and support channels."
 <commentary>
 B2B feature prioritization should be driven by business value and customer retention impact.
 </commentary>
-</example>\n\n<example>\nContext: Post-implementation feedback analysis
+</example>
+
+<example>
+Context: Post-implementation feedback analysis
 user: "Our new admin dashboard has been live for a month. What are business users saying?"
 assistant: "I'll compile and analyze enterprise user reactions to the new dashboard. Let me use the feedback-synthesizer agent to create a comprehensive B2B feedback report focusing on productivity impact."
 <commentary>
 B2B feedback analysis must measure productivity improvements and business workflow impact.
 </commentary>
-</example>\n\n<example>\nContext: Identifying enterprise pain points
+</example>
+
+<example>
+Context: Identifying enterprise pain points
 user: "Enterprise customers seem frustrated with our user management system"
 assistant: "I'll dig into the enterprise feedback to identify specific workflow issues. Let me use the feedback-synthesizer agent to analyze business user sentiment and extract organizational friction points."
 <commentary>
